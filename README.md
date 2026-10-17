@@ -86,7 +86,7 @@ div {
 }
 Penjelasan
 Elemen div digunakan sebagai kotak untuk menampung konten. Properti padding: 10px memberikan ruang di dalam kotak, sedangkan float: left membuat elemen mengambang ke kiri sehingga kotak dapat tersusun berjajar. Properti background memberi warna berbeda pada setiap kotak.
-(Screenshot/01.png)
+![(Screenshot/01.png)]
 
 5. Mengatur Clearfix dengan Properti clear
 Langkah Pengerjaan
@@ -103,7 +103,7 @@ Langkah Pengerjaan
 5. Coba ganti nilai clear menjadi both dan right, kemudian amati perubahannya.
 Penjelasan
 Properti clear mengatur posisi elemen terhadap elemen sebelumnya yang menggunakan float. Nilai clear: left mencegah elemen berada di samping elemen yang mengambang ke kiri. float: none membuat elemen keempat mengikuti aliran normal. Kotak keempat diberi warna biru agar mudah dibedakan.
-(Screenshot/02.png)
+!(Screenshot/02.png)
 
 6. Membuat Kerangka Layout Website
 Langkah Pengerjaan
