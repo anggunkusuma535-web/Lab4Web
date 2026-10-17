@@ -18,24 +18,45 @@ Berdasarkan modul Praktikum 4: CSS Layout, tujuan praktikum ini adalah:
 3. Struktur Folder
 File praktikum disusun dengan struktur berikut:
 Lab4Web/
+
 ├── lab4_box.html
+
 ├── Lab4_Layout
+
 │   ├── home.html
+
 │   ├── style.css
+
 │   ├── about.html
+
 │   └── kontak.html
+
 ├── Screenshot
+
 │   ├── 01.png
+
 │   ├── 02.png
-│   ├── 3.png
-│   ├── 4.png
-│   ├── 5.png
-│   ├── 6.png
-│   ├── 7.png
-│   ├── 8.png
-│   ├── 9.png
+
+
+│   ├── 03.png
+
+│   ├── 04.png
+
+│   ├── 05.png
+
+│   ├── 06.png
+
+
+│   ├── 07.png
+
+│   ├── 08.png
+
+│   ├── 09.png
+
 │   ├── tugas1-about.png
+
 │   └── tugas2-contact.png
+
 └── README.md
 
 4. Membuat Dokumen Box Element
@@ -65,8 +86,7 @@ div {
 }
 Penjelasan
 Elemen div digunakan sebagai kotak untuk menampung konten. Properti padding: 10px memberikan ruang di dalam kotak, sedangkan float: left membuat elemen mengambang ke kiri sehingga kotak dapat tersusun berjajar. Properti background memberi warna berbeda pada setiap kotak.
-Screenshot
-01.png
+(Screenshot/01.png)
 
 5. Mengatur Clearfix dengan Properti clear
 Langkah Pengerjaan
@@ -83,8 +103,7 @@ Langkah Pengerjaan
 5. Coba ganti nilai clear menjadi both dan right, kemudian amati perubahannya.
 Penjelasan
 Properti clear mengatur posisi elemen terhadap elemen sebelumnya yang menggunakan float. Nilai clear: left mencegah elemen berada di samping elemen yang mengambang ke kiri. float: none membuat elemen keempat mengikuti aliran normal. Kotak keempat diberi warna biru agar mudah dibedakan.
-Screenshot
-02.png.
+(Screenshot/02.png)
 
 6. Membuat Kerangka Layout Website
 Langkah Pengerjaan
@@ -147,7 +166,7 @@ header h1 {
 Penjelasan
 Elemen <header> digunakan untuk bagian judul, <nav> untuk navigasi, <section> untuk mengelompokkan konten, <aside> untuk bagian samping, dan <footer> untuk bagian bawah halaman. #container menjadi pembungkus seluruh layout dan margin: 0 auto membuatnya berada di tengah halaman.
 Screenshot
-03.png.
+(Screenshot/03.png)
 
 7. Mengatur Navigasi
 Langkah Pengerjaan
@@ -176,7 +195,7 @@ nav a:hover {
 Penjelasan
 Navigasi digunakan untuk menyediakan tautan ke halaman lain. display: inline-block membuat tautan tersusun berjajar dan memungkinkan padding diterapkan. text-decoration: none menghilangkan garis bawah tautan. Class active menandai menu yang sedang dipilih, sedangkan :hover mengubah warna menu ketika kursor berada di atasnya.
 Screenshot
-04.png.
+(Screenshot/04.png)
 
 8. Membuat Hero Panel
 Langkah Pengerjaan
@@ -224,7 +243,7 @@ Langkah Pengerjaan
 Penjelasan
 Hero panel merupakan bagian pengenalan website yang berisi judul, deskripsi, dan tombol. Warna latar membedakan panel dari bagian lain. Padding mengatur ruang di dalam panel, sedangkan margin memberi jarak dengan elemen setelahnya.
 Screenshot
-05.png.
+(Screenshot/05.png)
 
 9. Mengatur Main Content dan Sidebar
 Langkah Pengerjaan
@@ -309,8 +328,7 @@ Langkah Pengerjaan
 4. Simpan dan refresh browser.
 Penjelasan
 Main content merupakan area konten utama, sedangkan sidebar berisi informasi tambahan seperti widget dan tautan. Properti float: left meletakkan kedua bagian berdampingan. box-sizing: border-box membuat padding termasuk dalam perhitungan lebar kolom.
-Screenshot
-06.png.
+(Screenshot/06.png)
 
 10. Menambahkan Tiga Kotak Konten
 Langkah Pengerjaan
@@ -391,7 +409,7 @@ Langkah Pengerjaan
 Penjelasan
 Class .row menjadi pembungkus tiga kotak. Setiap .box menggunakan lebar sekitar sepertiga area agar ketiganya tersusun sejajar. text-align: center membuat konten berada di tengah, sedangkan border-radius: 50% membuat gambar berbentuk lingkaran.
 Screenshot
-08.png.
+(Screenshot/08.png)
 
 11. Mengatur Footer
 Langkah Pengerjaan
@@ -408,7 +426,7 @@ footer {
 Penjelasan
 Footer merupakan bagian bawah website yang dapat berisi informasi hak cipta atau identitas situs. background-color memberi latar gelap, padding memberi ruang di dalam footer, dan clear: both memastikan footer berada di bawah elemen yang menggunakan float ke kiri atau kanan.
 Screenshot
-Simpan screenshot yang memperlihatkan footer pada bagian bawah website dengan nama 09.png.
+(Screenshot/09.png)
 
 12. Jawaban Pertanyaan dan Tugas Modul
 Tugas 1 — Menambahkan Layout untuk Menu About
