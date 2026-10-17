@@ -86,7 +86,6 @@ div {
 }
 Penjelasan
 Elemen div digunakan sebagai kotak untuk menampung konten. Properti padding: 10px memberikan ruang di dalam kotak, sedangkan float: left membuat elemen mengambang ke kiri sehingga kotak dapat tersusun berjajar. Properti background memberi warna berbeda pada setiap kotak.
-![(Screenshot/01.png)]
 
 5. Mengatur Clearfix dengan Properti clear
 Langkah Pengerjaan
@@ -103,7 +102,6 @@ Langkah Pengerjaan
 5. Coba ganti nilai clear menjadi both dan right, kemudian amati perubahannya.
 Penjelasan
 Properti clear mengatur posisi elemen terhadap elemen sebelumnya yang menggunakan float. Nilai clear: left mencegah elemen berada di samping elemen yang mengambang ke kiri. float: none membuat elemen keempat mengikuti aliran normal. Kotak keempat diberi warna biru agar mudah dibedakan.
-!(Screenshot/02.png)
 
 6. Membuat Kerangka Layout Website
 Langkah Pengerjaan
@@ -166,7 +164,6 @@ header h1 {
 Penjelasan
 Elemen <header> digunakan untuk bagian judul, <nav> untuk navigasi, <section> untuk mengelompokkan konten, <aside> untuk bagian samping, dan <footer> untuk bagian bawah halaman. #container menjadi pembungkus seluruh layout dan margin: 0 auto membuatnya berada di tengah halaman.
 Screenshot
-(Screenshot/03.png)
 
 7. Mengatur Navigasi
 Langkah Pengerjaan
@@ -193,9 +190,7 @@ nav a:hover {
 3. Simpan file dan refresh browser.
 4. Arahkan kursor ke menu untuk melihat perubahan warna hover.
 Penjelasan
-Navigasi digunakan untuk menyediakan tautan ke halaman lain. display: inline-block membuat tautan tersusun berjajar dan memungkinkan padding diterapkan. text-decoration: none menghilangkan garis bawah tautan. Class active menandai menu yang sedang dipilih, sedangkan :hover mengubah warna menu ketika kursor berada di atasnya.
-Screenshot
-(Screenshot/04.png)
+Navigasi digunakan untuk menyediakan tautan ke halaman lain. display: inline-block membuat tautan tersusun berjajar dan memungkinkan padding diterapkan. text-decoration: none menghilangkan garis bawah tautan. Class active menandai menu yang sedang dipilih, sedangkan :hover mengubah warna menu ketika kursor berada di atasnya
 
 8. Membuat Hero Panel
 Langkah Pengerjaan
@@ -206,7 +201,7 @@ Langkah Pengerjaan
         Selamat datang di website praktikum CSS Layout.
         Halaman ini dibuat untuk mempelajari struktur
         dan tata letak website menggunakan HTML dan CSS.
-    </p>
+    </p>.
     <a href="about.html" class="btn btn-large">Learn more &raquo;</a>
 </section>
 2. Tambahkan CSS berikut ke style.css:
@@ -328,7 +323,7 @@ Langkah Pengerjaan
 4. Simpan dan refresh browser.
 Penjelasan
 Main content merupakan area konten utama, sedangkan sidebar berisi informasi tambahan seperti widget dan tautan. Properti float: left meletakkan kedua bagian berdampingan. box-sizing: border-box membuat padding termasuk dalam perhitungan lebar kolom.
-(Screenshot/06.png)
+
 
 10. Menambahkan Tiga Kotak Konten
 Langkah Pengerjaan
@@ -408,8 +403,7 @@ Langkah Pengerjaan
 4. Simpan dan refresh browser.
 Penjelasan
 Class .row menjadi pembungkus tiga kotak. Setiap .box menggunakan lebar sekitar sepertiga area agar ketiganya tersusun sejajar. text-align: center membuat konten berada di tengah, sedangkan border-radius: 50% membuat gambar berbentuk lingkaran.
-Screenshot
-(Screenshot/08.png)
+
 
 11. Mengatur Footer
 Langkah Pengerjaan
@@ -425,8 +419,7 @@ footer {
 3. Simpan dan refresh browser.
 Penjelasan
 Footer merupakan bagian bawah website yang dapat berisi informasi hak cipta atau identitas situs. background-color memberi latar gelap, padding memberi ruang di dalam footer, dan clear: both memastikan footer berada di bawah elemen yang menggunakan float ke kiri atau kanan.
-Screenshot
-(Screenshot/09.png)
+
 
 12. Jawaban Pertanyaan dan Tugas Modul
 Tugas 1 — Menambahkan Layout untuk Menu About
