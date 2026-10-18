@@ -600,7 +600,8 @@ Penjelasan: Elemen <input type="text"> digunakan untuk nama dan subjek, sedangka
 Catatan: Formulir ini baru menyediakan tampilan dan validasi dasar di browser. Pesan belum benar-benar dikirim ke email atau server karena belum menggunakan backend atau layanan pengiriman formulir.
 Screenshot: Simpan hasil halaman Contact sebagai 10-contact.png.
 
-13. Kesimpulan
-Pada Praktikum 4: CSS Layout, saya mempelajari cara membuat layout website menggunakan HTML dan CSS. Praktikum dimulai dengan pembuatan box element serta penggunaan properti float dan clear untuk mengatur posisi elemen. Selanjutnya, saya membuat kerangka layout website yang terdiri dari header, navigasi, hero panel, main content, sidebar, kotak konten, dan footer.
+Kesimpulan
+
+CSS Layout, saya mempelajari cara membuat layout website menggunakan HTML dan CSS. Praktikum dimulai dengan pembuatan box element serta penggunaan properti float dan clear untuk mengatur posisi elemen. Selanjutnya, saya membuat kerangka layout website yang terdiri dari header, navigasi, hero panel, main content, sidebar, kotak konten, dan footer.
 Pada bagian tugas, saya membuat halaman About yang berisi deskripsi diri, portofolio, dan tujuan, serta halaman Contact yang menyediakan formulir nama, email, subjek, dan pesan. Saya juga mempelajari penggunaan elemen HTML semantik, penghubungan CSS eksternal, serta pentingnya mengambil screenshot sebagai dokumentasi setiap tahap pengerjaan.
 Melalui praktikum ini, saya memahami bahwa HTML digunakan untuk membangun struktur halaman, sedangkan CSS digunakan untuk mengatur tampilan dan tata letak. Keduanya dapat digunakan bersama untuk membuat website yang lebih terstruktur dan mudah dipahami.
